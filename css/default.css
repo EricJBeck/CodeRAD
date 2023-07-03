@@ -25,6 +25,8 @@
   --size-150: 9.375rem;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
   font-family: "open sans", sans-serif;
   font-weight: 400;
@@ -110,7 +112,7 @@ img {
 }
 
 @media (min-width: 992px) {
-  footer .container {  max-width: 960px;}
+  footer .container { max-width: 960px;}
 }
 
 @media (min-width: 1200px) {
